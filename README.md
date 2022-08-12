@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://rogueshark27.github.io/Error_404_not_found/">
+    <a href="https://rogue-shark.github.io/Error_404_not_found/">
       Demo
     </a>
     <span> | </span>
