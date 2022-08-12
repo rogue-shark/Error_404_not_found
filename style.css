@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 2em auto;
+}
+
+.hero {
+    padding: 2em 0;
+   
+}
+
+.hero-img {
+    padding: 3em 0;
+
+}
+ img {
+    width: 100%;
+}
+
+
+.hero-quote {
+    font-size: 3rem;
+    line-height: 4.4375rem;
+}
+
+.hero-text {
+    font-size: 1.125rem;
+    line-height: 2.1875rem;
+    padding: 2em 0;
+}
+
+.hero-button {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: .875rem;
+    padding: 1em 2em;
+    background-color: black;
+    color: white;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1.25rem 1.5rem;
+}
+
+@media (min-width:600px) {
+    .container-center {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero {
+        display: flex;
+        gap: 5rem;
+        justify-content: center;
+    }
+    
+
+    .hero-img {
+        width: 50%;
+      
+        padding: 0;
+        align-self: center;
+    }
+
+    .hero-content {
+        width: 50%;
+    }
+    .hero-text{
+        width: 70%;
+    }
+}
